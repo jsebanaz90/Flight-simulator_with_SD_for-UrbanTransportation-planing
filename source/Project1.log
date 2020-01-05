@@ -1,0 +1,68 @@
+=======================================================================
+||       REGISTRO DE EVENTOS OCURRIDOS AL EJECUTAR LA APLICACION     ||
+|| Este archivo contiene información con la cual los desarrolladores ||
+|| pueden detectar las causas del problema.                          ||
+|| en Acerca de..., encontrará información sobre dónde puede enviarlo||
+=======================================================================
+Informacion del sistema
+=======================
+Numero de procesadores: 2
+Arquitectura del procesador: INTEL
+Nivel de procesador: Pentium Pro
+=======================
+Plataforma: Windows NT/2000/XP
+Sistema operativo versión: 6.1
+Build number: 7600
+
+=======================
+32 Tamaño del registro 'MemoryStatus'
+30% memoria en uso
+2075041792 Total de memoria física en bytes
+1452519424 Memoria física disponible en bytes
+4150083584 Total Bytes de archivo de paginación
+3060371456 Bytes disponibles en archivo de paginación
+2147352576 Bytes memoria virtual
+2076565504 Bytes disponibles de memoria virtual
+=======================
+EVOLUCION           3.5 (Build 21)
+2004/05/17
+=======================
+
+
+05/08/2016 20:50:15
+1) {[2017]Error matemático durante la simulación al evaluar }
+[Animador]
+
+
+08/08/2016 17:27:44
+1) {[2017]Error matemático durante la simulación al evaluar }
+[Animador]
+
+
+08/08/2016 20:07:54
+1) {[2017]Error matemático durante la simulación al evaluar }
+[Animador]
+
+
+08/08/2016 20:08:00
+1) {[2017]Error matemático durante la simulación al evaluar }
+[Animador]
+
+
+14/08/2016 22:29:50
+1) {[2017]Error matemático durante la simulación al evaluar }
+[Animador]
+
+
+14/08/2016 22:29:55
+1) {[2017]Error matemático durante la simulación al evaluar }
+[]
+
+
+14/08/2016 22:30:24
+1) {[2017]Error matemático durante la simulación al evaluar }
+[Animador]
+
+14/08/2016 22:30:24
+1) {[2017]Error matemático durante la simulación al evaluar }
+[Animador]
