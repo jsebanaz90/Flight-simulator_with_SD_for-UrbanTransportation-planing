@@ -1,0 +1,156 @@
+{UTF-8}
+Public Transport Users  = A FUNCTION OF( Car drivers,Informal Transport Users)
+	~	
+	~		|
+
+Congestion on roads for connectivity  = A FUNCTION OF( Informal Transport Users,Kilometers built\
+		,Kilometers traveled)
+	~	
+	~		|
+
+Attractiveness of car use  = A FUNCTION OF( Kilometers built)
+	~	
+	~		|
+
+Congestion pricing  = A FUNCTION OF( Car drivers)
+	~	
+	~		|
+
+Car drivers  = A FUNCTION OF( Attractiveness of car use,Congestion pricing,Public transport quality\
+		)
+	~	
+	~		|
+
+Financial resources  = A FUNCTION OF( Congestion pricing,Public Transport Users)
+	~	
+	~		|
+
+Kilometers traveled  = A FUNCTION OF( Car drivers)
+	~	
+	~		|
+
+Informal Transport Users  = A FUNCTION OF( Public transport quality)
+	~	
+	~		|
+
+Public transport profit  = A FUNCTION OF( Financial resources)
+	~	
+	~		|
+
+Public transport quality  = A FUNCTION OF( Public transport profit)
+	~	
+	~		|
+
+Kilometers built  = A FUNCTION OF( Congestion on roads for connectivity)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,160,0
+10,1,Congestion on roads for connectivity,103,152,52,15,8,131,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+10,2,Car drivers,351,201,40,20,3,3,0,9,0,1,0,0,0-0-255,0-0-255,|9||0-0-0,0,0,0,0,0,0
+10,3,Public Transport Users,456,103,49,17,8,131,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+10,4,Informal Transport Users,375,65,43,15,8,131,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+10,5,Congestion pricing,495,210,34,15,8,131,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+12,6,2,481,63,25,25,5,135,0,27,3,0,0,0,255-128-0,0-0-0,|8|BI|255-128-0,0,0,0,0,0,0
+Informal transport
+12,7,1,427,206,23,23,5,7,0,27,3,0,0,0,255-0-255,0-0-0,|9|BI|255-0-255,0,0,0,0,0,0
+Push Policy
+12,8,1,129,219,23,23,5,135,0,27,3,0,0,0,0-0-255,255-0-0,|9|BI|0-0-255,0,0,0,0,0,0
+Road construction
+12,9,2,505,158,23,23,4,7,0,27,3,0,0,0,0-255-0,0-0-0,|9|BI|0-255-0,0,0,0,0,0,0
+Pull policy
+10,10,Kilometers built,110,268,41,9,8,131,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+1,11,1,10,1,0,43,13,1,64,0,0-0-255,|12||255-0-0,1|(68,209)|
+1,12,10,1,1,0,45,13,9,65,0,0-0-255,|11||255-0-0,1|(195,207)|
+12,13,2,249,197,23,23,5,7,0,27,3,0,0,0,0-0-255,0-0-0,|9|BI|0-0-255,0,0,0,0,0,0
+ITD
+10,14,Attractiveness of car use,246,285,44,15,8,3,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+10,15,Kilometers traveled,225,111,42,13,8,131,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+1,16,10,14,1,0,43,13,3,64,0,0-0-255,|12||0-0-0,1|(162,292)|
+1,17,14,2,1,0,43,13,3,65,0,0-0-255,|12||0-0-0,1|(306,264)|
+1,18,2,15,1,0,43,13,3,192,0,0-0-255,|12||0-0-0,1|(310,129)|
+1,19,15,1,1,0,43,13,3,192,0,0-0-255,|12||0-0-0,1|(150,114)|
+10,20,Financial resources,579,151,38,14,8,131,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+10,21,Public transport profit,551,247,47,18,8,131,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+1,22,2,3,1,0,45,13,3,64,0,128-192-0,|12||0-0-0,1|(366,145)|
+1,23,3,20,1,0,43,13,3,64,0,128-192-0,|12||0-0-0,1|(533,104)|
+10,24,Public transport quality,435,296,54,15,8,131,0,8,0,0,0,0,-1--1--1,0-0-0,|9||0-0-0,0,0,0,0,0,0
+1,25,21,24,1,0,43,13,3,64,0,128-192-0,|12||0-0-0,1|(480,287)|
+1,26,24,2,1,0,45,13,3,64,0,128-192-0,|12||0-0-0,1|(356,234)|
+1,27,5,2,1,0,45,13,3,64,0,255-0-255,|12||0-0-0,1|(428,147)|
+1,28,2,5,1,0,43,13,3,64,0,255-0-255,|12||0-0-0,1|(410,249)|
+1,29,5,20,1,0,43,13,3,64,0,255-0-255,|12||0-0-0,1|(542,195)|
+1,30,20,21,1,0,43,13,3,64,0,128-192-0,|12||0-0-0,1|(583,199)|
+1,31,24,4,1,0,45,13,3,64,0,255-128-0,|12||0-0-0,1|(625,192)|
+1,32,4,3,1,0,45,13,3,192,0,255-160-0,|12||0-0-0,1|(437,81)|
+1,33,4,1,1,0,43,13,3,192,0,255-128-0,|12||0-0-0,1|(121,94)|
+12,34,2,253,72,25,25,5,135,0,27,3,0,0,0,255-128-0,0-0-0,|8|BI|255-128-0,0,0,0,0,0,0
+Induced Informal transport
+///---\\\
+:L<%^E!@
+9:Current
+22:$,Dollar,Dollars,$s
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+22:Day,Days
+23:0
+15:0,0,0,0,0,0
+19:160,0
+27:2,
+34:0,
+5:Informal Transport Users
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:1
+72:0
+73:0
+76:0
+77:0
+78:0
+79:0
+80:0
+81:0
+24:0
+25:0
+26:0
+75:
+43:
