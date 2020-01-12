@@ -10,4 +10,4 @@ You have to download and save these folders in the same location. In order to la
 
 ### Supplementary material:
 
-Folder <b>SD_models</b> contains the System Dynamic model (both English and Spanish versions) used by the flight simulator. This model was built in Evolución, a software package developed by SIMON research group (<a href="http://simon.uis.edu.co/">Showing Text</a>) to model and simulate with SD. In this same folder, the reader can find the .exe file (named <b>evolucion_45_Beta.exe</b>) of Evolución for its installation.
+Folder <b>SD_models</b> contains the System Dynamic model (both English and Spanish versions) used by the flight simulator. This model was built in Evolución, a software package developed by SIMON research group (<a href="http://simon.uis.edu.co/">simon.uis.edu.co</a>), at Universidad Industrial de Santander (Bucaramanga, Colombia) to model and simulate with SD. In this same folder, the reader can find the .exe file (named <b>evolucion_45_Beta.exe</b>) of Evolución for its installation.
